@@ -33,4 +33,13 @@ cd kali-gpt
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env
+
+
+
+- Check if a .env file already exists. If not, you'll need to create one.
+- To create the .env file, open your terminal and use:
+- touch .env and then edit
+- In the .env file, add your OpenAI API key in the following format:
+- OPENAI_API_KEY=your-api-key-here
+
+https://platform.openai.com/api-keys
